@@ -1,0 +1,8 @@
+p=float(input("enter principle amount:"))
+r=float(input("enter rate of interest:"))
+t=float(input("enter the time in the years:"))
+i=p*(pow((1+r/100),t))
+print("principle amount:",p)
+print("interest rate:",r)
+print("years:",t)
+print("compound interest:",i)
